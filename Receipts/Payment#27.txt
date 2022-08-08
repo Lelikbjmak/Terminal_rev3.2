@@ -1,0 +1,5 @@
+Payment# 27
+Type: Convert
+Consumer card# 9232 4900 1425 0484
+Summa: 100.0 USD
+Sun Jul 31 12:44:26 MSK 2022

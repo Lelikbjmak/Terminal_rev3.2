@@ -1,0 +1,5 @@
+Payment# 28
+Type: Money extradition
+Consumer card# 9232 4900 1425 0484
+Summa: 200.0 USD
+Sun Jul 31 12:46:10 MSK 2022
