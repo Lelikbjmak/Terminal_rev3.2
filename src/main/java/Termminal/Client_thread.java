@@ -58,8 +58,8 @@ public class Client_thread implements Runnable{
                 System.out.println(in.readUTF());
             }
 
-        System.out.println("1" + in.readUTF());
-        System.out.println("2" + in.readUTF());
+        System.out.println(in.readUTF());
+        System.out.println(in.readUTF());
        // System.out.println("3" + in.readUTF());
 
     }
@@ -112,15 +112,15 @@ public class Client_thread implements Runnable{
         out.writeInt(Integer.parseInt(sc.nextLine()));  // password
         out.flush();
 
-        System.out.println("1" + in.readUTF()); // verification
-        System.out.println("2" + in.readUTF()); // successful
-        System.out.println("3" + in.readUTF()); // print receipt
+        System.out.println(in.readUTF()); // verification
+        System.out.println(in.readUTF()); // successful
+        System.out.println(in.readUTF()); // print receipt
 
         String answer = sc.nextLine();
         out.writeUTF(answer);
         out.flush();
         if(answer.equalsIgnoreCase("yes"))
-        System.out.println("1" + in.readUTF());  // for receipt print
+        System.out.println(in.readUTF());  // for receipt print
 
     }
 
@@ -142,15 +142,15 @@ public class Client_thread implements Runnable{
         out.writeInt(Integer.parseInt(sc.nextLine()));
         out.flush();
 
-        System.out.println("1" + in.readUTF()); // verification
-        System.out.println("2" + in.readUTF()); // successful
-        System.out.println("3" + in.readUTF()); // print receipt
+        System.out.println(in.readUTF()); // verification
+        System.out.println(in.readUTF()); // successful
+        System.out.println(in.readUTF()); // print receipt
 
         String answer = sc.nextLine();
         out.writeUTF(answer);
         out.flush();
         if(answer.equalsIgnoreCase("yes"))
-            System.out.println("1" + in.readUTF());  // for receipt print
+            System.out.println(in.readUTF());  // for receipt print
 
     }
 
@@ -174,7 +174,7 @@ public class Client_thread implements Runnable{
         out.writeUTF(answer);
         out.flush();
         if(answer.equalsIgnoreCase("yes"))
-            System.out.println("1" + in.readUTF());  // for receipt print
+            System.out.println(in.readUTF());  // for receipt print
     }
 
 
@@ -194,7 +194,7 @@ public class Client_thread implements Runnable{
         out.writeUTF(answer);
         out.flush();
         if(answer.equalsIgnoreCase("yes"))
-            System.out.println("1" + in.readUTF());  // for receipt print
+            System.out.println(in.readUTF());  // for receipt print
     }
 
 
